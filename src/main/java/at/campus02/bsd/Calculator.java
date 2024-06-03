@@ -20,6 +20,18 @@ public class Calculator {
     }
 
     public static int factorial(int number) {
-        return 0;
+        int result = 1;
+
+        if(number == 0){
+            return 1;
+        }
+        else if (number > 0){
+            while(number > 0){
+                result = result * number;
+                number--;
+            }
+            return result;
+        }
+        throw new ArithmeticException();
     }
 }
