@@ -28,3 +28,6 @@ Folder "target" with all compiled classes was added
 
 ### mvn compile
 ![mvn compile](resources/images/ex3_2.png)
+
+### mvn exec:java
+![mvn exec:java](resources/images/ex3_3.png)

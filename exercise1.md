@@ -1,7 +1,9 @@
 # Exercise 1
 
 ## Usage Example
-![usageExample](resources/images/usage.pngusage.png)Usage Example
+
+![usageExample](resources/images/usage.png)
+
 
 ## Area Calculation
 To calculate the area the following page was used:

@@ -22,8 +22,14 @@ To terminate the programm type ```Quit```
 [ChatGpt](<https://chat.openai.com/auth/login>)
 
 ### Author
-Vanessa Bierbacher\
-vanessa.bierbacher@gmail.com
+Vanessa Bierbacher
+
+
+## Git Hub
+https://github.com/vanessabieba/bsd23_bierbacher_vanessa
+
+[FH Campus 02](www.campus02.at)
+
 
 ## Links
 - [Exercise 1](exercise1.md)

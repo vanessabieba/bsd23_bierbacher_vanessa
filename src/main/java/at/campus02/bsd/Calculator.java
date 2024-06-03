@@ -8,9 +8,15 @@ public class Calculator {
         return number1 - number2;
     }
     public static double divide(double number1, double number2){
-        return number1 / number2;
+        if(number2 !=0){
+            return number1 / number2;
+        }else{
+            throw new ArithmeticException();
+        }
+
     }
     public static double multiply(double number1, double number2){
         return number1 * number2;
     }
+
 }
