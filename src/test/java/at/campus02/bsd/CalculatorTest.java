@@ -72,6 +72,21 @@ public class CalculatorTest {
         assertEquals(0.5, calc.divide(8,16));
     }
 
-
+    //Fakultät
+    @DisplayName("Testing factorial()")
+    @Test
+    void testFactorial(){
+        assertEquals(720, calc.factorial(6));
+    }
+    @DisplayName("Testing factorial() negative Numbers")
+    @Test
+    void testFactorialNegative(){
+        assertThrows(ArithmeticException.class, () -> calc.factorial(-6));
+    }
+    @DisplayName("Testing factorial() Null")
+    @Test
+    void testFactorialNull(){
+        assertEquals(1, calc.factorial(0));
+    }
 
 }
