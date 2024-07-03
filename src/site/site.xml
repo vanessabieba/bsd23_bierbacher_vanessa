@@ -1,0 +1,12 @@
+<project name="Drinks Documentation Demo">
+    <publishDate position="right"/>
+    <version position="left"/>
+    <body>
+        <menu name="Overview">
+            <item name="Good Style" href="good_style.html"/>
+            <item name="Test Coverage Report" href="test.html"/>
+            <item name="API Documentation" href="apidocs/index.html"/>
+        </menu>
+        <menu ref="reports"/>
+    </body>
+</project>
